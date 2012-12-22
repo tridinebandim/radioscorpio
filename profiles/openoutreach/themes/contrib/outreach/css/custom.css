@@ -1,0 +1,70 @@
+.pane-block-1 .pane-title{
+	display: none;
+}
+#player {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+#player .nowplaying{
+	-moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.33);
+	box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.33);
+	padding: 10px;
+	background-color: white;
+	border-radius: 2px;
+}
+#player .nowplaying .currentsong, #player .nowplaying .nextshow{
+	display: block;
+}
+#player .nowplaying {
+	float: left;
+	height: 155px;
+	//width: 300px;
+}
+
+#block-panels-mini-test .pane-block-2 .playbutton a,#block-panels-mini-test .pane-block-2 .playbutton a:hover, #block-panels-mini-test .pane-block-2 .playbutton a:active{
+	text-decoration:none;
+}
+#block-panels-mini-test .pane-block-2 .playbutton a:hover, #block-panels-mini-test .pane-block-2 .playbutton a:active{
+	cursor: pointer;
+}
+#block-panels-mini-test .pane-block-2 .playbutton img, #block-panels-mini-test .pane-block-2 .playbutton strong{
+	vertical-align: middle;
+}
+#block-panels-mini-test .pane-block-2 .playbutton strong{
+	font-size: 2em;
+}
+#block-panels-mini-test .pane-follow-site, #block-panels-mini-test .pane-block-2{
+	-moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.33);
+	box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.33);
+	background-color: white;
+	padding: 10px;
+	//width: 176px;
+	border-radius: 2px;
+	
+}
+#block-panels-mini-test .pane-follow-site h2{
+	font-size: 1.5em;
+}
+#block-panels-mini-test .pane-follow-site .block-content{
+	background-color: white;
+}
+#block-panels-mini-test .pane-follow-site a.follow-link {
+	height: 32px;
+	display: block;
+	line-height: 26px;
+	padding: 0px 5px 2px 33px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	width: 0px;
+	float: left;
+	margin: 5px 0;
+}
+#block-panels-mini-test{
+	background: url("images/tuner.jpeg") 0% 10% no-repeat;
+	background-size: 100% auto;
+	//background-color: gray;
+}
